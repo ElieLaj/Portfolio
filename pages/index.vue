@@ -29,6 +29,7 @@ watch(() => activeTab.value, (newValue, oldValue) => {
   } else {
     direction.value = 'left'
   }
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 })
 </script>
 

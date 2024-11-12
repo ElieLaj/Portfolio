@@ -70,3 +70,12 @@
     transform: translateX(100%);
   }
 }
+
+.animate-fade-in {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
+
+.animate-fade-out {
+  animation: fade-out 0.7s ease-out;
+}

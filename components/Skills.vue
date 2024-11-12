@@ -29,12 +29,27 @@ const props = defineProps({
 const search = ref('')
 const skillsIntro = ref(null)
 const focusedProject = ref(null)
-
-
 const filteredProjects = ref(projects)
+const hiddenProjects = ref([])
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in')
+        }
+        else {
+            entry.target.classList.remove('animate-fade-in')
+        }
+    })
+})
+
+watch(() => hiddenProjects.value, (newValue, oldValue) => {
+    if (newValue) {
+        observer.observe(newValue)
+    }
+})
 
 watch(() => search.value, (newValue, oldValue) => {
-    console.log(newValue)
     if (newValue !== '') {
         filteredProjects.value = projects.filter(project => 
             project.title.toLowerCase().includes(newValue.toLowerCase()) ||
@@ -47,6 +62,10 @@ watch(() => search.value, (newValue, oldValue) => {
 })
 
 onMounted(() => {
-  props.direction === 'right' ? skillsIntro.value.classList.add('animate-slide-right') : skillsIntro.value.classList.add('animate-slide-left')
+    props.direction === 'right' ? skillsIntro.value.classList.add('animate-slide-right') : skillsIntro.value.classList.add('animate-slide-left')
+    hiddenProjects.value = document.querySelectorAll('.hiddenProject')
+    if (hiddenProjects.value && hiddenProjects.value.length > 0) {
+        hiddenProjects.value.forEach(project => observer.observe(project))
+    }
 })
 </script>

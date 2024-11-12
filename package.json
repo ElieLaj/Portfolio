@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^1.7.2",
+    "nuxt": "^3.14.159",
+    "vue": "latest",
+    "vue-pdf": "^4.3.0",
+    "vue-pdf-embed": "^2.1.1",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.48",
+    "sass-embedded": "^1.80.6",
+    "tailwindcss": "^3.4.14"
+  }
+}

@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  @apply bg-gray-100 fixed w-full h-full top-0 blur;
+  z-index: -1;
+}
+
+.animate-slide-right {
+  animation: slide-right 0.7s ease-out;
+}
+
+
+.animate-slide-left {
+  animation: slide-left 0.7s ease-out;
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 50;
+    transform: translateX(-100%);
+  }
+
+  100% {   
+    opacity: 100; 
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 50;
+    transform: translateX(100%);
+  }
+  100% {   
+    opacity: 100; 
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-out-right {
+  animation: slide-right-out 0.7s ease-out;
+}
+
+
+.animate-slide-out-left {
+  animation: slide-left-out 0.7s ease-out;
+}
+
+@keyframes slide-right-out {
+  0% {
+    opacity: 100;
+    transform: translateX(0);
+  }
+
+  100% {   
+    opacity: 50; 
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-left-out {
+  0% {
+    opacity: 100;
+    transform: translateX(0);
+  }
+  100% {   
+    opacity: 50; 
+    transform: translateX(100%);
+  }
+}

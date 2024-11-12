@@ -13,19 +13,19 @@
             <div class="mt-6" v-if="skills">
               <h3 class="text-2xl font-medium text-gray-900">Mes compétences</h3>
               <div class="mt-3 flex flex-wrap gap-2">
-                <span v-for="skill in skills" :key="skill" class="bg-gray-800 text-white px-3 py-1 rounded-full text-md">{{ skill }}</span>
+                <span v-for="skill in skills" :key="skill" class="bg-gray-800 text-white hover:bg-blue-600 duration-200 px-3 py-1 rounded-full text-md">{{ skill }}</span>
               </div>
             </div>
             <div class="mt-6" v-if="softSkills">
               <h3 class="text-2xl font-medium text-gray-900">Mes Softs-Skills</h3>
               <div class="mt-3 flex flex-wrap gap-2">
-                <span v-for="skill in softSkills" :key="skill" class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-md">{{ skill }}</span>
+                <span v-for="skill in softSkills" :key="skill" class="bg-gray-200 text-gray-700 hover:bg-gray-800 hover:text-white duration-200 px-3 py-1 rounded-full text-md">{{ skill }}</span>
               </div>
             </div>
             <div class="mt-6" v-if="interests">
               <h3 class="text-2xl font-medium text-gray-900">Mes centres d'intérêts</h3>
               <div class="mt-3 flex flex-wrap gap-2">
-                <span v-for="interest in interests" :key="interest" class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-md">{{ interest }}</span>
+                <span v-for="interest in interests" :key="interest" class="bg-gray-200 text-gray-700 hover:bg-gray-800 hover:text-white duration-200 px-3 py-1 rounded-full text-md">{{ interest }}</span>
               </div>
             </div>
           </div>

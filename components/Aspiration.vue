@@ -10,9 +10,36 @@
             <p class=" text-xl font-medium text-gray-900">
                 Je suis actuellement à la recherche d'un poste d'alternant développeur Fullstack Junior ou développeur d'Applications Junior. Je suis prêt à m'investir dans une alternance de 12 mois, avec un rythme de deux semaines en entreprise et deux semaines en formation, jusqu'à septembre prochain.
             </p>
-            <a href="/assets/other/CV%20Fullstack%20Elie%20Lajoinie.pdf" download="CV Lajoinie Elie.pdf" class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm">Télécharger mon CV</a>
+            <a 
+              href="/assets/other/CV%20Fullstack%20Elie%20Lajoinie.pdf" 
+              download="CV Lajoinie Elie.pdf" 
+              class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm download-btn z-1">
+              Télécharger mon CV
+            </a>
           </div>
         </div>
       </div>
     </div>
 </template>
+
+<style lang="scss" scoped>
+.download-btn {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.download-btn::before {
+    @apply absolute flex top-0 w-full h-full -left-full bg-gray-800 text-center items-center justify-center z-0 text-white;
+    content: "Télécharger mon CV";
+    transition: left 0.5s ease;
+}
+
+.download-btn:hover::before {
+    left: 0;
+}
+
+.download-btn > * {
+    position: relative;
+}
+</style>

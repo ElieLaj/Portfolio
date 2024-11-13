@@ -1,12 +1,14 @@
 <template>
     <div ref="skillsIntro">
         <Head title="Mes projets & expériences"/>
-        <div class="flex flex-row w-full justify-center gap-5">
-            <input type="text" v-model="search" placeholder="Rechercher un projet" class="w-1/3 p-2 rounded-lg border-2 border-gray-300 focus:border-blue-500 focus:outline-none"/>
-                <select name="stacks" id="stacks-select" v-model="stack" class="p-2 rounded-lg border-2 border-gray-300 focus:border-blue-500 focus:outline-none">
-                    <option value="" class="text-gray-400">Toute stack</option>
-                    <option v-for="stack in stacks" :value="stack">{{ stack }}</option>
-                </select>
+        <div class="flex max-lg:flex-col max-lg:items-center lg:flex-row w-full justify-center gap-5">
+            <input type="text" v-model="search" placeholder="Rechercher un projet" 
+            class="w-1/3 max-lg:w-2/3 p-2 rounded-lg border-2 border-gray-300 focus:border-blue-500 focus:outline-none"/>
+            <select name="stacks" id="stacks-select" v-model="stack" 
+            class="p-2 rounded-lg border-2 border-gray-300 focus:border-blue-500 focus:outline-none">
+                <option value="" class="text-gray-400">Toute stack</option>
+                <option v-for="stack in stacks" :value="stack">{{ stack }}</option>
+            </select>
         </div>
         <Project v-for="project in filteredProjects" @focus="focusedProject = project" :title="project.title" :bio="project.bio" :stacks="project.stacks" :link="project.link" :image="project.image"/>
         <div class="w-full justify-center text-center" v-if="filteredProjects.length == 0">

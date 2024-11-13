@@ -27,7 +27,7 @@ const title = 'Développeur Full-Stack / Application'
 const bio = 'Actuellement en formation à Sup de Vinci en 3ème année, je suis à la recherche d\'une alternance. Curieux, dynamique et créatif, je suis passionné par le développement web et d\'applications. J\'aime découvrir de nouvelles technologies et les mettre en pratique dans des projets personnels ou professionnels.'
 const skills = ['Vue.js', 'React', 'Node.js', 'Django', 'Python', 'MongoDB', 'PostgreSQL', 'Linux']
 const softSkills = ['Travail d\'équipe', 'Rigoureux', 'Gestion de projet', 'Autonome', 'Polyvalent']
-const interests = ['Pâtisserie', 'Langues étrangères', 'Mangas', 'Informatique', 'Apprendre']
+const interests = ['Pâtisserie', 'Langues étrangères', 'Mangas', 'Informatique', 'Apprendre', 'Jeux vidéo']
 
 onMounted(() => {
   const directionClass = props.direction === 'right' ? 'animate-slide-right' : 'animate-slide-left'

@@ -10,6 +10,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
+  build: {
+    transpile: ['vue3']
+  },
   modules: ['@nuxt/icon']
 })

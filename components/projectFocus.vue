@@ -14,7 +14,7 @@
 
       <a :href="link ? link : '#'" target="_blank" class="flex flex-col group image-link duration-150">
         <Icon size="32" name="quill:link-out" class="absolute invisible right-1/2 top-[40%] translate-x-1/2 text-white group-hover:visible z-10 duration-100"/>
-        <img :src="`/_nuxt/static/images/` + image" alt="avatar" class="cursor-pointer group-hover:blur-sm duration-200"/>
+        <img :src="`/static/images/` + image" alt="avatar" class="cursor-pointer group-hover:blur-sm duration-200"/>
       </a>
 
       <div v-if="stacks" class="w-full text-center">

@@ -11,7 +11,7 @@
             "doc": "rapportStage.pdf",
             "docTitle": "mon rapport de stage"
         },
-                {
+        {
             "title": "Learn Or Fight",
             "date": "Décembre 2023 - Mars 2024",
             "bio": "Projet d'études, il s'agit d'une application de quiz en ligne où l'on rapporte des points à son clan pour chaque bonne réponse à un quiz. Projet réalisé en 3 mois.",
@@ -19,6 +19,15 @@
             "link": "https://github.com/ProjetCultureLoF/LearnOrFight-Vue",
             "image": "lof.png",
             "more": "Lors de ce projet, j'ai pu découvrir Vue.js pour la première fois, ce qui m'a permis de réaliser une application web dynamique. J'ai pu créer une application web complète avec un back-end utilisant Express, communiquant avec l'ORM Sequelize et une base de données SQLite, et un front-end en Vue.js. Le site permettait la création et la suppression de nouveaux quiz, avec une interface administrateur. Les questions étaient réparties dans les départements français et avaient chacune un thème attribué qui changeait chaque jour. Les joueurs ne pouvaient pas rejouer tant que les quiz de la région n'avaient pas changé. Pour chaque bonne réponse, les joueurs ramenaient des points à leur clan choisi lors de la création de leur compte."
+        },
+        {
+            "title": "Projet Pokemon",
+            "date": "Mars 2024 - 5 Jours",
+            "bio": "Projet en POO réalisé en cours sur 5 jours, l'objectif était de reproduire le système du jeu Pokemon en jeu console avec C#.",
+            "stacks": ["C#", "TCP"],
+            "link": "https://github.com/ElieLaj/ProjetPkmn",
+            "image": "projetPkmn.jpg",
+            "more": "Durant ce projet j'ai pu dépasser l'objectif initial en proposant l'utilisation d'objet pour capturer de nouveaux pokémons et se soigner, j'ai aussi rajouter l'option de changer de carte et des combats de dresseurs. De plus j'ai implémenté un mode multijoueur fonctionnant actuellement uniquement sur une même carte."
         },
         {
             "title": "SDV Forum",

@@ -19,6 +19,14 @@ import Home from '../components/Home.vue';
 import Skills from '../components/Skills.vue';
 import Contact from '../components/Contact.vue';
 
+useSeoMeta({
+  title: 'Portfolio - Elie Lajoinie',
+  ogTitle: 'Portfolio - Elie Lajoinie',
+  description: 'Ce site est mon portfolio, et sert donc à répertorier tous mes projets. Aussi, je suis à la recherche d\'une alternance en développement.',
+  ogDescription: 'Ce site est mon portfolio, et sert donc à répertorier tous mes projets. Aussi, je suis à la recherche d\'une alternance en développement.',
+  ogImage: '/assets/images/moi.png',
+})
+
 const activeTab = ref(1)
 
 const direction = ref('')

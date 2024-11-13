@@ -1,7 +1,7 @@
 <template>
     <div ref="homeIntro">
       <Head title="Bienvenue sur mon portfolio" />
-      <Bio :name="name" :title="title" :bio="bio" :skills="skills" :softSkills="softSkills" :interests="interests" />
+      <Bio :name="name" :title="title" :bio="bio" :skills="skills" :softSkills="softSkills" :interests="interests" :languages="languages" />
       <Aspiration/>
     </div>
 </template>
@@ -28,6 +28,7 @@ const bio = 'Actuellement en formation à Sup de Vinci en 3ème année, je suis 
 const skills = ['Vue.js', 'React', 'Node.js', 'Django', 'Python', 'MongoDB', 'PostgreSQL', 'Linux']
 const softSkills = ['Travail d\'équipe', 'Rigoureux', 'Gestion de projet', 'Autonome', 'Polyvalent']
 const interests = ['Pâtisserie', 'Langues étrangères', 'Mangas', 'Informatique', 'Apprendre', 'Jeux vidéo']
+const languages = [ { name: 'Français', level: 'C2' }, { name: 'Anglais', level: 'C1' }, { name: 'Espagnol', level: 'B1' }, { name: 'Japonais', level: 'A2' } ]
 
 onMounted(() => {
   const directionClass = props.direction === 'right' ? 'animate-slide-right' : 'animate-slide-left'

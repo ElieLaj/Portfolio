@@ -28,6 +28,9 @@
   .secondary-skills{
     @apply bg-gray-200 text-gray-700 hover:bg-gray-800 hover:text-white duration-200 px-3 py-1 rounded-full;
   }
+  .tertiary-skills{
+    @apply bg-blue-600 text-white hover:bg-gray-800 duration-200 px-3 py-1 rounded-full;
+  }
 }
 
 /* Animations */

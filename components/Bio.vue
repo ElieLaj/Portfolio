@@ -28,11 +28,20 @@
                 </span>
               </div>
             </div>
+            <div class="mt-6" v-if="languages">
+              <h3 class="text-title">Langues parlé</h3>
+              <div class="skill-list">
+                <span v-for="language in languages" :key="language" 
+                class="secondary-skills">
+                {{ language.name }} - {{ language.level }}
+                </span>
+              </div>
+            </div>
             <div class="mt-6" v-if="interests">
               <h3 class="text-title">Mes centres d'intérêts</h3>
               <div class="skill-list">
                 <span v-for="interest in interests" :key="interest" 
-                class="secondary-skills">
+                class="tertiary-skills">
                 {{ interest }}
                 </span>
               </div>
@@ -72,6 +81,10 @@ const props = defineProps({
         required: false
   },
   interests: {
+        type: Array,
+        required: false
+  },
+  languages: {
         type: Array,
         required: false
   },

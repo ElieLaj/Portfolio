@@ -7,7 +7,7 @@
         <button @click="activeTab--" v-if="activeTab > 1" class="arrowButton"><Icon size="32" name="uil:arrow-circle-left" style="color: white" /></button>
         <button @click="activeTab++" v-if="activeTab < 3" class="arrowButton"><Icon size="32" name="uil:arrow-circle-right" style="color: white" /></button>
     </div>
-  <div class="background">
+  <div class="bg-gray-100 fixed w-full h-full top-0 blur bg-[url('/assets/images/la_vague.jpg')] bg-cover -z-10">
   </div>
 
 </template>

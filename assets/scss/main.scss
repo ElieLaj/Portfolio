@@ -2,10 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
-  @apply bg-gray-100 fixed w-full h-full top-0 blur;
-  z-index: -1;
+/* Texts */
+.title{
+  @apply  text-5xl font-bold text-gray-900;
 }
+.subtitle{
+  @apply text-3xl font-medium text-gray-700;
+}
+
+.text-title{
+  @apply text-2xl font-medium text-gray-900;
+}
+
+.text{
+  @apply text-gray-700 text-lg group-hover:text-xl group-hover:text-gray-900 duration-300;
+}
+
+/* lists */
+
+.skill-list{
+  @apply mt-3 flex flex-wrap gap-2;
+  .main-skills{
+    @apply bg-gray-800 text-white hover:bg-blue-600 duration-200 px-3 py-1 rounded-full;
+  }
+  .secondary-skills{
+    @apply bg-gray-200 text-gray-700 hover:bg-gray-800 hover:text-white duration-200 px-3 py-1 rounded-full;
+  }
+}
+
+/* Animations */
 
 .animate-slide-right {
   animation: slide-right 0.7s ease-out;
@@ -50,9 +75,9 @@
 
 .animate-fade-in {
   opacity: 1;
-  animation: fade-in 0.7s ease-out;
+  animation: fade-in 1s ease-out;
   animation-timeline: view();
-  animation-range: entry 0% cover 20%
+  animation-range: entry 0% cover 10%
 }
 
 

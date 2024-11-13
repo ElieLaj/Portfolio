@@ -2,7 +2,7 @@
   <div class="fixed inset-0 z-50 flex items-center justify-center">
     <div class="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-md" @click="$emit('close')"></div>
 
-    <div class="relative bg-white shadow-xl rounded-lg overflow-hidden w-11/12 sm:w-3/4 lg:w-1/2 p-8 flex flex-col items-center space-y-6 z-50">
+    <div class="relative bg-white shadow-xl rounded-lg overflow-hidden w-11/12 sm:w-3/4 lg:w-1/2 p-8 flex flex-col items-center space-y-6 z-50 max-h-[90vh] overflow-y-auto"> 
 
       <button @click="$emit('close')" class="absolute top-4 right-4 text-gray-800 hover:text-gray-900 text-lg hover:text-2xl duration-300">
         ✕
@@ -12,8 +12,9 @@
         {{ title }}
       </a>
 
-      <a :href="link ? link : '#'" target="_blank" class="relative group w-full">
-        <img :src="`/_nuxt/assets/images/` + image" alt="avatar" class="rounded-lg w-full h-auto cursor-pointer group-hover:opacity-75 transition-opacity duration-150" />
+      <a :href="link ? link : '#'" target="_blank" class="flex flex-col group image-link duration-150">
+        <Icon size="32" name="quill:link-out" class="absolute invisible right-1/2 top-[40%] translate-x-1/2 text-white group-hover:visible z-10 duration-100"/>
+        <img :src="`/_nuxt/assets/images/` + image" alt="avatar" class="cursor-pointer group-hover:blur-sm duration-200"/>
       </a>
 
       <div v-if="stacks" class="w-full text-center">
@@ -28,7 +29,11 @@
         <p class="text-gray-600">{{ more ? more : bio }}</p>
       </div>
 
-      <a :href="'/assets/other/'+doc+'.pdf'" download="CV Lajoinie Elie.pdf" class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm">Télécharger {{ docTitle }}</a>
+      <a :href="'/assets/other/'+doc+'.pdf'" download="CV Lajoinie Elie.pdf" 
+      class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm"
+      v-if="doc">
+      Télécharger {{ docTitle }}
+      </a>
 
     </div>
   </div>

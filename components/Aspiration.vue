@@ -2,7 +2,7 @@
     <div class="mx-auto px-4 sm:px-6 lg:px-8 my-5">
       <div class="bg-white shadow-xl rounded-lg overflow-hidden">
         <div class="sm:flex sm:items-center sm:justify-between">
-          <div class="flex flex-col gap-4 h-full w-1/3 justify-center rounded-lg">
+          <div class="flex flex-col gap-4 h-full w-1/3 justify-center rounded-lg shadow">
                 <img src="/assets/images/CV Informatique Elie Lajoinie.png" alt="avatar"/>
           </div>
           <div class="flex flex-col px-6 py-8 sm:p-10 z-0 w-2/3 gap-4">

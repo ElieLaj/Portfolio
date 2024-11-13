@@ -5,13 +5,15 @@
         <a 
           href="#"
           @click.prevent="scrollToSection(1)"
-          :class="{ 'text-gray-400': activeTab !== 1, 'text-white textShadow duration-200': activeTab === 1 }"
+          class="title-nav"
+          :class="{ 'text-gray-400': activeTab !== 1, 'text-white textShadow': activeTab === 1 }"
         >
         Qui suis-je ?
         </a>
         <a
           href="#"
           @click.prevent="scrollToSection(2)"
+          class="title-nav"
           :class="{ 'text-gray-400': activeTab !== 2, 'text-white textShadow': activeTab === 2 }"
         >
         Mes projets & expériences
@@ -19,6 +21,7 @@
         <a
           href="#"
           @click.prevent="scrollToSection(3)"
+          class="title-nav"
           :class="{ 'text-gray-400': activeTab !== 3, 'text-white textShadow': activeTab === 3 }"
         >
         Me contacter
@@ -55,5 +58,16 @@ nav {
         0 0 7px #fff,
         0 0 8px #fff,
         0 0 17px #fff,
+}
+
+.title-nav {
+  @apply duration-200;
+}
+
+.title-nav:hover {
+    text-shadow:
+        0 0 12px #fff,
+        0 0 13px #fff,
+        0 0 20px #fff,
 }
 </style>

@@ -12,7 +12,7 @@
     <div class="network-container" v-else>
         <div class="network-text left-network-text" :class="color">
             <a :href="link" class="link underscore" :class="textColor">
-            {{ pseudo }} <Icon name="uil:external-link-alt" :color="textColor"/>
+                {{ pseudo }} <Icon name="uil:external-link-alt" :color="textColor"/>
             </a>
         </div>
         <div class="left-logo logo">
@@ -23,7 +23,7 @@
 
 <style lang="scss" scoped>
 .network-container {
-    @apply flex flex-row w-1/2 h-12 mx-auto shadow-lg;
+    @apply flex flex-row lg:w-1/2 max-lg:w-2/3 h-12 mx-auto shadow-lg;
     .logo {
         @apply flex flex-row p-4 h-full bg-white items-center justify-center;
     }
@@ -34,9 +34,9 @@
         @apply rounded-e-full;
     }
     .network-text {
-        @apply flex flex-row w-full h-full items-center justify-center;
+        @apply flex flex-row w-full h-full items-center justify-center overflow-hidden text-ellipsis ;
         .link {
-            @apply flex flex-row font-medium text-lg max-lg:text-base items-center justify-center gap-2;
+            @apply flex flex-row font-medium text-lg max-lg:text-sm items-center justify-center gap-2;
         }
     }
     .right-network-text {

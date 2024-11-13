@@ -3,7 +3,7 @@
     <div class="mx-auto px-4 sm:px-4 lg:px-8">
       <div class="bg-white shadow-xl rounded-lg overflow-hidden">
         <div class="flex max-lg:flex-col items-center justify-between h-fit">
-          <div class="flex flex-col px-6 py-8 sm:p-10 h-full group max-lg:items-center max-lg:justify-between max-lg:text-center">
+          <div class="flex flex-col lg:w-1/2 px-6 py-8 sm:p-10 h-full group max-lg:items-center max-lg:justify-between max-lg:text-center">
             <div class="flex w-fit">
               <a :href="link ? link : '#'" target="_blank" class="underscore">
                 <h1 class="title cursor-pointer">{{ title }}</h1>
@@ -23,10 +23,10 @@
             En savoir plus
             </a>
           </div>
-          <div class="flex h-full max-lg:mb-5 justify-center bg-gray-800 rounded-lg duration-150 max-w-1/2 max-lg:w-3/4 relative group" v-if="image">
+          <div class="flex min-h-full max-lg:mb-5 justify-center bg-gray-800 rounded-lg duration-150 w-1/2 max-lg:w-3/4 relative group" v-if="image">
             <a :href="link ? link : '#'" target="_blank" class="image-link duration-150">
+              <img :src="`/images/` + image" alt="avatar" class="object-cover cursor-pointer group-hover:blur-sm duration-200"/>
               <Icon size="32" name="quill:link-out" class="absolute invisible right-1/2 top-1/2 translate-x-1/2 text-white group-hover:visible z-10 duration-100"/>
-              <img :src="`/images/` + image" alt="avatar" class="cursor-pointer group-hover:blur-sm duration-200"/>
             </a>
           </div>
         </div>

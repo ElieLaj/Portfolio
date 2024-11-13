@@ -11,8 +11,8 @@
                 Je suis actuellement à la recherche d'un poste d'alternant développeur Fullstack Junior ou développeur d'Applications Junior. Je suis prêt à m'investir dans une alternance de 12 mois, avec un rythme de deux semaines en entreprise et deux semaines en formation, jusqu'à septembre prochain.
             </p>
             <a 
-              href="/other/CV%20Fullstack%20Elie%20Lajoinie.pdf" 
-              download="CV Lajoinie Elie.pdf" 
+              href="/other/CV_Fullstack_Elie_Lajoinie.pdf.pdf" 
+              download="CV Fullstack Elie Lajoinie.pdf" 
               class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm download-btn z-1">
               Télécharger mon CV
             </a>

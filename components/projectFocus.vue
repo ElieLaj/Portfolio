@@ -29,7 +29,7 @@
         <p class="text-gray-600">{{ more ? more : bio }}</p>
       </div>
 
-      <a :href="'/other/'+doc+'.pdf'" :download="docTitle" 
+      <a :href="'/other/'+doc" :download="doc" 
       class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm"
       v-if="doc">
       Télécharger {{ docTitle }}

@@ -61,7 +61,7 @@ nav {
 }
 
 .title-nav {
-  @apply duration-200 max-w-[33%] text-center;
+  @apply duration-200 max-w-[33%] text-center text-xl max-lg:text-base;
 }
 
 .title-nav:hover {

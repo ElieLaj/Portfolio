@@ -21,7 +21,7 @@
 <script setup>
 import Head from '../components/Head.vue';
 import { ref, watch } from 'vue'
-import { projects } from '../public/data/projects.json'
+import { projects } from '../static/data/projects.json'
 
 const props = defineProps({
   direction: {

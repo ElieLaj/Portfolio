@@ -38,8 +38,8 @@
               </div>
             </div>
           </div>
-          <div class="flex lg:w-1/3 max-lg:w-full lg:justify-end max-lg:justify-center rounded-e-lg max-lg:bg-[url('/public/images/la_vague.jpg')] bg-cover">
-                <img src="/public/images/moi-no-bg.png" alt="avatar" class="h-full lg:bg-[url('/public/images/la_vague.jpg')] bg-cover bg-center "/>
+          <div class="flex lg:w-1/3 max-lg:w-full lg:justify-end max-lg:justify-center rounded-e-lg max-lg:bg-[url('/static/images/la_vague.jpg')] bg-cover">
+                <img src="/static/images/moi-no-bg.png" alt="avatar" class="h-full lg:bg-[url('/static/images/la_vague.jpg')] bg-cover bg-center "/>
           </div>
         </div>
       </div>

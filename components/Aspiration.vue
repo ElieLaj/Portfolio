@@ -3,7 +3,7 @@
       <div class="bg-white shadow-xl rounded-lg overflow-hidden">
         <div class="sm:flex sm:items-center sm:justify-between">
           <div class="flex flex-col gap-4 h-full w-1/3 justify-center rounded-lg shadow">
-                <img src="/assets/images/CV Informatique Elie Lajoinie.png" alt="avatar"/>
+                <img src="/public/images/CV Informatique Elie Lajoinie.png" alt="avatar"/>
           </div>
           <div class="flex flex-col px-6 py-8 sm:p-10 z-0 w-2/3 gap-4">
             <h1 class="text-4xl font-bold text-gray-900">Ce que je recherche</h1>
@@ -11,7 +11,7 @@
                 Je suis actuellement à la recherche d'un poste d'alternant développeur Fullstack Junior ou développeur d'Applications Junior. Je suis prêt à m'investir dans une alternance de 12 mois, avec un rythme de deux semaines en entreprise et deux semaines en formation, jusqu'à septembre prochain.
             </p>
             <a 
-              href="/assets/other/CV%20Fullstack%20Elie%20Lajoinie.pdf" 
+              href="/public/other/CV%20Fullstack%20Elie%20Lajoinie.pdf" 
               download="CV Lajoinie Elie.pdf" 
               class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm download-btn z-1">
               Télécharger mon CV

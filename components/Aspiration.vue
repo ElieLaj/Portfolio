@@ -10,7 +10,7 @@
             <p class="text-xl font-medium text-gray-900">
                 Je suis actuellement à la recherche d'un poste d'alternant développeur Fullstack Junior ou développeur d'Applications Junior. Je suis prêt à m'investir dans une alternance de 12 mois, avec un rythme de deux semaines en entreprise et deux semaines en formation, jusqu'à septembre prochain.
             </p>
-            <h1 class="title text-end">Pourquoi moi ?</h1>
+            <h1 class="title lg:text-end">Pourquoi moi ?</h1>
             <p class="text-xl font-medium text-gray-900">
                 Passioné par le développement informatique, je suis toujours prêt à redéfinir mes limites avec de nouveaux projets de plus en plus complexes. Mon approche se concentre autant sur la technique que sur le sens : j’aime comprendre en profondeur ce que je fais et pourquoi, et cette réflexion guide mes choix de développement.
             </p>
@@ -22,7 +22,7 @@
               J’ai également à cœur de partager mes connaissances : j’aime aider les autres à comprendre, car je crois qu’un bon développeur contribue non seulement au code, mais aussi à l’équipe qui l’entoure.
             </p>
             <a 
-              href="/other/CV_Fullstack_Elie_Lajoinie.pdf.pdf" 
+              href="/other/CV_Fullstack_Elie_Lajoinie.pdf" 
               download="CV Fullstack Elie Lajoinie.pdf" 
               class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm download-btn z-1">
               Télécharger mon CV

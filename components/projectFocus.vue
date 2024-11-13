@@ -30,7 +30,7 @@
       </div>
 
       <a :href="`/other/${doc}`" :download="docTitle" 
-        class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm"
+        class="self-center text-center w-1/2 py-3 bg-gray-200 text-gray-700 rounded-full text-sm hover:bg-gray-700 hover:text-white max-lg:py-4"
         v-if="doc">
         Télécharger {{ docTitle }}
       </a>

@@ -3,31 +3,31 @@
         {
             "title": "Stage chez Neeft",
             "date": "Avril 2024 - Juillet 2024",
-            "bio": "Stage de 2 mois réalisé dans la startup neeft, j'ai aidé à réaliser un site web pour leur mise en relation de joueurs et équipes e-sport.",
+            "bio": "Stage de 2 mois réalisé dans la startup Neeft, où j'ai contribué à la création d'un site web facilitant la mise en relation de joueurs et d'équipes e-sport.",
             "stacks": ["Vue.js", "Tailwind", "Figma", "GitLab", "Typescript"],
             "link": "https://neeft.fr",
             "image": "neeft.png",
-            "more": "Durant ce stage, j'ai pu mettre mes connaissances en pratique ce qui m'a amené a réaliser de nombreux composants et pages du site, j'ai appris à utiliser git sur un projet déjà hébergé. J'ai également pu découvrir de nouvelles technologies comme Tailwind et Typescript et l'implémentation de bibliothèques. Sur ce projet j'ai aussi pu réaliser une traduction intégrale du site web en anglais, et aussi une réalisation de la documentation du projet.",
+            "more": "Durant ce stage, j'ai pu mettre mes connaissances en pratique, ce qui m'a amené à réaliser de nombreux composants et pages du site. J'ai appris à utiliser Git sur un projet déjà hébergé et j'ai également découvert de nouvelles technologies, comme Tailwind et Typescript, ainsi que l'implémentation de bibliothèques. J'ai aussi réalisé une traduction intégrale du site web en anglais et rédigé la documentation du projet.",
             "doc": "rapportStage.pdf",
             "docTitle": "mon rapport de stage"
         },
         {
             "title": "Learn Or Fight",
             "date": "Décembre 2023 - Mars 2024",
-            "bio": "Projet d'études, il s'agit d'une application de quiz en ligne où l'on rapporte des points à son clan pour chaque bonne réponse à un quiz. Projet réalisé en 3 mois.",
+            "bio": "Projet d'études : il s'agit d'une application de quiz en ligne où l'on rapporte des points à son clan pour chaque bonne réponse. Projet réalisé en 3 mois.",
             "stacks": ["Vue.js", "Node.js", "Express", "SQLite", "Sequelize"],
             "link": "https://github.com/ProjetCultureLoF/LearnOrFight-Vue",
             "image": "lof.png",
-            "more": "Lors de ce projet, j'ai pu découvrir Vue.js pour la première fois, ce qui m'a permis de réaliser une application web dynamique. J'ai pu créer une application web complète avec un back-end utilisant Express, communiquant avec l'ORM Sequelize et une base de données SQLite, et un front-end en Vue.js. Le site permettait la création et la suppression de nouveaux quiz, avec une interface administrateur. Les questions étaient réparties dans les départements français et avaient chacune un thème attribué qui changeait chaque jour. Les joueurs ne pouvaient pas rejouer tant que les quiz de la région n'avaient pas changé. Pour chaque bonne réponse, les joueurs ramenaient des points à leur clan choisi lors de la création de leur compte."
+            "more": "Lors de ce projet, j'ai découvert Vue.js pour la première fois, ce qui m'a permis de réaliser une application web dynamique. J'ai pu créer une application web complète avec un back-end utilisant Express, communiquant avec l'ORM Sequelize et une base de données SQLite, et un front-end en Vue.js. Le site permettait la création et la suppression de nouveaux quiz, avec une interface administrateur. Les questions étaient réparties dans les départements français et avaient chacune un thème attribué qui changeait chaque jour. Les joueurs ne pouvaient pas rejouer tant que les quiz de la région n'avaient pas changé. Pour chaque bonne réponse, les joueurs rapportaient des points à leur clan choisi lors de la création de leur compte."
         },
         {
-            "title": "Projet Pokemon",
+            "title": "Projet Pokémon",
             "date": "Mars 2024 - 5 Jours",
-            "bio": "Projet en POO réalisé en cours sur 5 jours, l'objectif était de reproduire le système du jeu Pokemon en jeu console avec C#.",
+            "bio": "Projet en POO réalisé en cours sur 5 jours, l'objectif était de reproduire le système du jeu Pokémon en console avec C#.",
             "stacks": ["C#", "TCP"],
             "link": "https://github.com/ElieLaj/ProjetPkmn",
             "image": "projetPkmn.jpg",
-            "more": "Durant ce projet j'ai pu dépasser l'objectif initial en proposant l'utilisation d'objet pour capturer de nouveaux pokémons et se soigner, j'ai aussi rajouter l'option de changer de carte et des combats de dresseurs. De plus j'ai implémenté un mode multijoueur fonctionnant actuellement uniquement sur une même carte."
+            "more": "Durant ce projet, j'ai pu dépasser l'objectif initial en proposant l'utilisation d'objets pour capturer de nouveaux Pokémon et se soigner. J'ai aussi ajouté l'option de changer de carte et des combats de dresseurs. De plus, j'ai implémenté un mode multijoueur fonctionnant actuellement uniquement sur une même carte."
         },
         {
             "title": "SDV Forum",
@@ -36,12 +36,12 @@
             "stacks": ["PHP", "SQL", "HTML/CSS"],
             "link": "https://github.com/B3-SDV-TP-PHP/sdv-forum",
             "image": "sdv-forum.png",
-            "more": "Premier grand projet en PHP réalisé en binome lors dun bootcamp, j'ai pu mettre en pratique mes connaissances sur le langage PHP. J'ai réalisé un forum de discussion complet avec la gestion des messages des utilisateurs et de leurs forums. J'ai pu apprendre à sécuriser un site web en PHP et à gérer les sessions utilisateurs. J'ai également pu découvrir la gestion des formulaires en PHP et la gestion des erreurs."
+            "more": "Premier grand projet en PHP réalisé en binôme lors d'un bootcamp, j'ai pu mettre en pratique mes connaissances sur le langage PHP. J'ai réalisé un forum de discussion complet avec la gestion des messages des utilisateurs et de leurs forums. J'ai appris à sécuriser un site web en PHP et à gérer les sessions utilisateurs. J'ai également découvert la gestion des formulaires en PHP et la gestion des erreurs."
         },
         {
             "title": "Dogfight",
             "date": "Janvier 2024 - 3 Jours",
-            "bio": "Projet en POO réalisé en cours sur 3 jours, il s'agit d'un jeu de combat d'avion en local où l'on peut se battre contre un autre joueur.",
+            "bio": "Projet en POO réalisé en cours sur 3 jours, il s'agit d'un jeu de combat d'avions en local où l'on peut se battre contre un autre joueur.",
             "stacks": ["Python"],
             "link": "https://github.com/ElieLaj/DogFight",
             "image": "dogfight.png"

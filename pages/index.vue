@@ -3,9 +3,9 @@
     <Home v-if="activeTab == 1" class="transition-transform duration-500 ease-in-out" :direction="direction" />
     <Skills v-if="activeTab == 2" class="transition-transform duration-500 ease-in-out pb-10" :direction="direction" />
     <Contact v-if="activeTab == 3" class="transition-transform duration-500 ease-in-out pb-10" :direction="direction" />
-    <div class="flex fixed bottom-0 w-full justify-center my-6 gap-2">
-        <button @click="activeTab--" v-if="activeTab > 1" class="arrowButton"><Icon size="32" name="uil:arrow-circle-left" style="color: white" /></button>
-        <button @click="activeTab++" v-if="activeTab < 3" class="arrowButton"><Icon size="32" name="uil:arrow-circle-right" style="color: white" /></button>
+    <div class="flex fixed bottom-0 w-full justify-center my-6 max-lg:my-3 gap-2">
+        <button @click="activeTab--" v-if="activeTab > 1" class="arrowButton"><Icon name="uil:arrow-circle-left" style="color: white" class="text-3xl max-lg:text-2xl" /></button>
+        <button @click="activeTab++" v-if="activeTab < 3" class="arrowButton"><Icon name="uil:arrow-circle-right" style="color: white" class="text-3xl max-lg:text-2xl" /></button>
     </div>
   <div class="bg-gray-100 fixed w-full h-full top-0 blur bg-[url('/static/images/la_vague.jpg')] bg-cover -z-10">
   </div>
@@ -43,7 +43,7 @@ watch(() => activeTab.value, (newValue, oldValue) => {
 
 <style lang="scss" scoped>
 .arrowButton {
-  @apply rounded-full bg-gray-800 shadow-md w-14 h-14 flex items-center justify-center;
+  @apply rounded-full bg-gray-800 shadow-md w-14 h-14 max-lg:w-10 max-lg:h-10 flex items-center justify-center;
 }
 
 </style>

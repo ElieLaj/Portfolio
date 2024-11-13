@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-gray-800 py-4 w-full z-50">
     <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-      <div class="flex items-center space-x-6">
+      <div class="flex items-center space-x-6 max-lg:justify-around">
         <a 
           href="#"
           @click.prevent="scrollToSection(1)"
@@ -61,7 +61,7 @@ nav {
 }
 
 .title-nav {
-  @apply duration-200;
+  @apply duration-200 max-w-[33%] text-center;
 }
 
 .title-nav:hover {

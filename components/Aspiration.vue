@@ -8,7 +8,7 @@
           <div class="flex flex-col px-6 py-8 sm:p-10 z-0 lg:w-2/3 max-lg:w-full max-lg:justify-center max-lg:text-center gap-4">
             <h1 class="title">Ce que je recherche</h1>
             <p class="text-xl font-medium text-gray-900">
-                Je suis actuellement à la recherche d'un poste d'alternant développeur Fullstack Junior ou développeur d'Applications Junior. Je suis prêt à m'investir dans une alternance de 12 mois, avec un rythme de deux semaines en entreprise et deux semaines en formation, jusqu'à septembre prochain.
+                Je suis actuellement à la recherche d'un poste d'alternant développeur Fullstack Junior ou développeur d'Applications Junior. Je suis prêt à m'investir dans une alternance, avec un rythme de deux semaines en entreprise et deux semaines en formation, jusqu'à septembre prochain.
             </p>
             <h1 class="title lg:text-end">Pourquoi moi ?</h1>
             <p class="text-xl font-medium text-gray-900">

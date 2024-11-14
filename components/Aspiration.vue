@@ -12,7 +12,7 @@
             </p>
             <h1 class="title lg:text-end">Pourquoi moi ?</h1>
             <p class="text-xl font-medium text-gray-900">
-                Passioné par le développement informatique, je suis toujours prêt à redéfinir mes limites avec de nouveaux projets de plus en plus complexes. Mon approche se concentre autant sur la technique que sur le sens : j’aime comprendre en profondeur ce que je fais et pourquoi, et cette réflexion guide mes choix de développement.
+                Passionné par le développement informatique, je suis toujours prêt à redéfinir mes limites avec de nouveaux projets de plus en plus complexes. Mon approche se concentre autant sur la technique que sur le sens : j’aime comprendre en profondeur ce que je fais et pourquoi, et cette réflexion guide mes choix de développement.
             </p>
             <p class="text-xl font-medium text-gray-900">
               Organisé et rigoureux, je veille à ce que mon travail soit structuré et facile à maintenir.

@@ -24,7 +24,6 @@ useSeoMeta({
   ogTitle: 'Portfolio - Elie Lajoinie',
   description: 'Ce site est mon portfolio, et sert donc à répertorier tous mes projets. Aussi, je suis à la recherche d\'une alternance en développement.',
   ogDescription: 'Ce site est mon portfolio, et sert donc à répertorier tous mes projets. Aussi, je suis à la recherche d\'une alternance en développement.',
-  ogImage: '/static/images/moi.png',
 })
 
 const activeTab = ref(1)

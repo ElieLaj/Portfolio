@@ -32,7 +32,7 @@
               <h3 class="text-title">Langues parlé</h3>
               <div class="skill-list">
                 <span v-for="language in languages" :key="language" 
-                class="secondary-skills">
+                class="tertiary-skills">
                 {{ language.name }} - {{ language.level }}
                 </span>
               </div>
@@ -41,7 +41,7 @@
               <h3 class="text-title">Mes centres d'intérêts</h3>
               <div class="skill-list">
                 <span v-for="interest in interests" :key="interest" 
-                class="tertiary-skills">
+                class="general-skills">
                 {{ interest }}
                 </span>
               </div>

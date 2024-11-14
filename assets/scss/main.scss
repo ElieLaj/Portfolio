@@ -26,10 +26,13 @@
     @apply bg-gray-800 text-white hover:bg-blue-600 duration-200 px-3 py-1 rounded-full;
   }
   .secondary-skills{
-    @apply bg-gray-200 text-gray-700 hover:bg-gray-800 hover:text-white duration-200 px-3 py-1 rounded-full;
+    @apply bg-blue-600 text-white hover:bg-gray-800 duration-200 px-3 py-1 rounded-full;
   }
   .tertiary-skills{
-    @apply bg-blue-600 text-white hover:bg-gray-800 duration-200 px-3 py-1 rounded-full;
+    @apply bg-orange-600 text-white hover:bg-red-600 duration-200 px-3 py-1 rounded-full;
+  }
+  .general-skills{
+    @apply bg-gray-200 text-gray-700 hover:bg-gray-800 hover:text-white duration-200 px-3 py-1 rounded-full;
   }
 }
 

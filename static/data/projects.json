@@ -1,6 +1,15 @@
 {
     "projects": [
         {
+            "title": "Poke Dev",
+            "date": "Novembre 2024 - Novembre 2024",
+            "bio": "N'ayant jamais utilisé Angular ni Spring Boot auparavant, j'ai souhaité me former à ces deux technologies. J'ai donc réalisé ce projet en une semaine, avec pour objectif d'apprendre autant que possible sur leur fonctionnement. Le site, ainsi que son API, sont actuellement hébergés en ligne.",
+            "stacks": ["Angular", "Spring Boot", "SCSS"],
+            "link": "https://projet-pokemon-angular.vercel.app/",
+            "image": "pokemon-angular.png",
+            "more": "Grâce à la programmation orientée objet, j’ai pu développer un site web complet combinant un front-end en Angular et un back-end en Spring Boot. J’ai appris à utiliser les services et composants Angular, à gérer les routes, les intercepteurs, ainsi que les formulaires et la gestion des erreurs. Du côté back-end, j’ai utilisé Spring Boot pour créer une API communiquant avec une base de données PostgreSQL. J’ai appris à manipuler les services, les contrôleurs, les requêtes HTTP et leurs réponses. J’ai également sécurisé mon API en mettant en place un système de tokens permettant de restreindre l’accès à certaines routes ou requêtes."
+        },
+        {
             "title": "Stage chez Neeft",
             "date": "Avril 2024 - Juillet 2024",
             "bio": "Stage de 2 mois réalisé dans la startup Neeft, où j'ai contribué à la création d'un site web facilitant la mise en relation de joueurs et d'équipes e-sport.",

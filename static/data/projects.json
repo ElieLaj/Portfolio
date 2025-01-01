@@ -1,6 +1,15 @@
 {
     "projects": [
         {
+            "title": "Sketch Game",
+            "date": "Décembre 2024 - Décembre 2024",
+            "bio": "Souhaitant me former aux websockets, j'ai réalisé ce projet en trois jours. Il s'agit d'un jeu de dessin en ligne où l'on peut rejoindre une partie et dessiner sur un canvas et l'on doit faire deviner un mot aux autres joueurs. Le jeu est actuellement hébergé en ligne.",
+            "stacks": ["Node.JS", "Angular", "SCSS", "Tailwind", "WS"],
+            "link": "https://sketch-games.vercel.app/",
+            "image": "sketch-game.png",
+            "more": "Le projet 'Sketch Game' a été conçu dans le but de me perfectionner avec l'utilisation des WebSockets. En seulement trois jours, j'ai créé un jeu de dessin multijoueur en temps réel, où les joueurs rejoignent une partie et dessinent un mot sur un canvas, tandis que les autres joueurs tentent de deviner le mot en question. Ce projet m'a permis d'explorer les concepts des communications bidirectionnelles en temps réel, d'améliorer mes compétences en développement côté serveur avec Node.js et d'utiliser Angular pour gérer l'interface utilisateur. Le design du jeu est modernisé grâce à l'intégration de SCSS et de Tailwind pour une expérience utilisateur fluide et responsive. Le jeu est actuellement accessible en ligne via le lien fourni, et il est hébergé sur Vercel, garantissant une mise en ligne rapide et une gestion efficace des ressources."
+        },
+        {
             "title": "Poke Dev",
             "date": "Novembre 2024 - Novembre 2024",
             "bio": "N'ayant jamais utilisé Angular ni Spring Boot auparavant, j'ai souhaité me former à ces deux technologies. J'ai donc réalisé ce projet en une semaine, avec pour objectif d'apprendre autant que possible sur leur fonctionnement. Le site, ainsi que son API, sont actuellement hébergés en ligne.",

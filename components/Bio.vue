@@ -13,8 +13,8 @@
             <div class="mt-6" v-if="skills">
               <h3 class="text-title">Mes compétences</h3>
               <div class="skill-list">
-                <span v-for="skill in skills" :key="skill" 
-                class="main-skills">
+                <span v-for="(logo, skill) in skills" :key="skill" class="main-skills">
+                  <Icon :name="logo" class="text-primary mr-2 my-2" size="24px" />
                   {{ skill }}
                 </span>
               </div>

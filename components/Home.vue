@@ -23,9 +23,23 @@ const props = defineProps({
 const homeIntro = ref(null)
 
 const name = 'Elie LAJOINIE'
-const title = 'Développeur Full-Stack / Application'
-const bio = 'Actuellement en formation à Sup de Vinci en 3ème année, je suis à la recherche d\'une alternance. Curieux, dynamique et créatif, je suis passionné par le développement web et d\'applications. J\'aime découvrir de nouvelles technologies et les mettre en pratique dans des projets personnels ou professionnels.'
-const skills = ['Vue.js', 'React', 'Node.js', 'Django', 'Python', 'MongoDB', 'PostgreSQL', 'Linux']
+const title = 'Etudiant en 3ème année - Futur Développeur Fullstack / Application'
+const bio = 'Actuellement en formation à Sup de Vinci en 3ème année, je suis à la recherche d\'une alternance ou d\'un stage. Curieux, dynamique et créatif, je suis passionné par le développement web et d\'applications. J\'aime découvrir de nouvelles technologies et les mettre en pratique dans des projets personnels ou professionnels.'
+const skills = {
+  'Vue.js': 'logos-vue',
+  'React': 'devicon-react',
+  'Angular': 'devicon-angularjs',
+  'TypeScript': 'devicon-typescript',
+  'Node.js': 'devicon:nodejs',
+  'Spring Boot': 'devicon-spring',
+  'Java': 'logos-java',
+  'Django': 'vscode-icons:file-type-django',
+  'Python': 'logos-python',
+  'MongoDB': 'devicon:mongodb',
+  'PostgreSQL': 'logos-postgresql',
+  'Linux': 'devicon:linux',
+  'Git': 'devicon-git',
+};
 const softSkills = ['Travail d\'équipe', 'Rigoureux', 'Gestion de projet', 'Autonome', 'Polyvalent']
 const interests = ['Pâtisserie', 'Langues étrangères', 'Mangas', 'Informatique', 'Apprendre', 'Jeux vidéo']
 const languages = [ { name: 'Français', level: 'C2' }, { name: 'Anglais', level: 'C1' }, { name: 'Espagnol', level: 'B1' }, { name: 'Japonais', level: 'A2' } ]

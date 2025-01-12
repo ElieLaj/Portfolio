@@ -1,30 +1,30 @@
-<template>
-  <nav class="bg-gray-800 py-4 w-full z-50">
+<template> 
+  <nav class="bg-white py-4 z-50 shadow-md w-fit mx-auto rounded-2xl mt-4">
     <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-      <div class="flex items-center space-x-6 max-lg:justify-around">
+      <div class="flex items-center space-x-6 flex-wrap justify-center">
         <a 
           href="#"
           @click.prevent="scrollToSection(1)"
           class="title-nav"
-          :class="{ 'text-gray-400': activeTab !== 1, 'text-white textShadow': activeTab === 1 }"
+          :class="{ 'text-black': activeTab !== 1, 'text-black textShadow': activeTab === 1 }"
         >
-        Qui suis-je ?
+          Qui suis-je ?
         </a>
         <a
           href="#"
           @click.prevent="scrollToSection(2)"
           class="title-nav"
-          :class="{ 'text-gray-400': activeTab !== 2, 'text-white textShadow': activeTab === 2 }"
+          :class="{ 'text-black': activeTab !== 2, 'text-black textShadow': activeTab === 2 }"
         >
-        Mes projets & expériences
+          Mes projets & expériences
         </a>
         <a
           href="#"
           @click.prevent="scrollToSection(3)"
           class="title-nav"
-          :class="{ 'text-gray-400': activeTab !== 3, 'text-white textShadow': activeTab === 3 }"
+          :class="{ 'text-black': activeTab !== 3, 'text-black textShadow': activeTab === 3 }"
         >
-        Me contacter
+          Me contacter
         </a>
       </div>
     </div>
@@ -48,26 +48,20 @@ const scrollToSection = (tab) => {
 </script>
 
 <style lang="scss">
-
 nav {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .textShadow {
-    text-shadow:
-        0 0 7px #fff,
-        0 0 8px #fff,
-        0 0 17px #fff,
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 
+               0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .title-nav {
-  @apply duration-200 max-w-[33%] text-center text-xl max-lg:text-base;
+  @apply text-center text-xl max-lg:text-base transition duration-200 transform hover:scale-110 font-bold;
 }
 
 .title-nav:hover {
-    text-shadow:
-        0 0 12px #fff,
-        0 0 13px #fff,
-        0 0 20px #fff,
+  text-shadow: 0 0 12px #fff, 0 0 13px #fff, 0 0 20px #fff;
 }
 </style>

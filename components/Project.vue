@@ -12,7 +12,10 @@
             <div class="mt-6" v-if="stacks">
               <h3 class="text-title">Stacks</h3>
               <div class="skill-list">
-                <span v-for="stack in stacks" :key="stack" class="main-skills">{{ stack }}</span>
+                <span v-for="stack in stacks" :key="stack.name" class="main-skills">
+                  <Icon :name="stack.logo" class="text-primary mr-2" />
+                  {{ stack.name }}
+                </span>
               </div>
             </div>
             <div class="mt-4 group">

@@ -4,7 +4,13 @@
             "title": "Sketch Game",
             "date": "Décembre 2024 - Décembre 2024",
             "bio": "Souhaitant me former aux websockets, j'ai réalisé ce projet en trois jours. Il s'agit d'un jeu de dessin en ligne où l'on peut rejoindre une partie et dessiner sur un canvas et l'on doit faire deviner un mot aux autres joueurs. Le jeu est actuellement hébergé en ligne.",
-            "stacks": ["Node.JS", "Angular", "SCSS", "Tailwind", "WS"],
+            "stacks": [
+                { "name": "Node.JS", "logo": "devicon-nodejs" },
+                { "name": "Angular", "logo": "devicon-angular" },
+                { "name": "SCSS", "logo": "vscode-icons:file-type-scss" },
+                { "name": "Tailwind", "logo": "devicon:tailwindcss" },
+                { "name": "Websockets", "logo": "bi:server" }
+            ],
             "link": "https://sketch-games.vercel.app/",
             "image": "sketch-game.png",
             "more": "Le projet 'Sketch Game' a été conçu dans le but de me perfectionner avec l'utilisation des WebSockets. En seulement trois jours, j'ai créé un jeu de dessin multijoueur en temps réel, où les joueurs rejoignent une partie et dessinent un mot sur un canvas, tandis que les autres joueurs tentent de deviner le mot en question. Ce projet m'a permis d'explorer les concepts des communications bidirectionnelles en temps réel, d'améliorer mes compétences en développement côté serveur avec Node.js et d'utiliser Angular pour gérer l'interface utilisateur. Le design du jeu est modernisé grâce à l'intégration de SCSS et de Tailwind pour une expérience utilisateur fluide et responsive. Le jeu est actuellement accessible en ligne via le lien fourni, et il est hébergé sur Vercel, garantissant une mise en ligne rapide et une gestion efficace des ressources."
@@ -13,7 +19,11 @@
             "title": "Poke Dev",
             "date": "Novembre 2024 - Novembre 2024",
             "bio": "N'ayant jamais utilisé Angular ni Spring Boot auparavant, j'ai souhaité me former à ces deux technologies. J'ai donc réalisé ce projet en une semaine, avec pour objectif d'apprendre autant que possible sur leur fonctionnement. Le site, ainsi que son API, sont actuellement hébergés en ligne.",
-            "stacks": ["Angular", "Spring Boot", "SCSS"],
+            "stacks": [
+                { "name": "Angular", "logo": "devicon-angular" },
+                { "name": "Spring Boot", "logo": "devicon-spring" },
+                { "name": "SCSS", "logo": "vscode-icons:file-type-scss" }
+            ],
             "link": "https://projet-pokemon-angular.vercel.app/",
             "image": "pokemon-angular.png",
             "more": "Grâce à la programmation orientée objet, j’ai pu développer un site web complet combinant un front-end en Angular et un back-end en Spring Boot. J’ai appris à utiliser les services et composants Angular, à gérer les routes, les intercepteurs, ainsi que les formulaires et la gestion des erreurs. Du côté back-end, j’ai utilisé Spring Boot pour créer une API communiquant avec une base de données PostgreSQL. J’ai appris à manipuler les services, les contrôleurs, les requêtes HTTP et leurs réponses. J’ai également sécurisé mon API en mettant en place un système de tokens permettant de restreindre l’accès à certaines routes ou requêtes."
@@ -22,7 +32,13 @@
             "title": "Stage chez Neeft",
             "date": "Avril 2024 - Juillet 2024",
             "bio": "Stage de 2 mois réalisé dans la startup Neeft, où j'ai contribué à la création d'un site web facilitant la mise en relation de joueurs et d'équipes e-sport.",
-            "stacks": ["Vue.js", "Tailwind", "Figma", "GitLab", "Typescript"],
+            "stacks": [
+                { "name": "Vue.js", "logo": "logos-vue" },
+                { "name": "Tailwind", "logo": "devicon-tailwind" },
+                { "name": "Figma", "logo": "devicon-figma" },
+                { "name": "GitLab", "logo": "devicon-gitlab" },
+                { "name": "Typescript", "logo": "devicon-typescript" }
+            ],
             "link": "https://neeft.fr",
             "image": "neeft.png",
             "more": "Durant ce stage, j'ai pu mettre mes connaissances en pratique, ce qui m'a amené à réaliser de nombreux composants et pages du site. J'ai appris à utiliser Git sur un projet déjà hébergé et j'ai également découvert de nouvelles technologies, comme Tailwind et Typescript, ainsi que l'implémentation de bibliothèques. J'ai aussi réalisé une traduction intégrale du site web en anglais et rédigé la documentation du projet.",
@@ -33,7 +49,13 @@
             "title": "Learn Or Fight",
             "date": "Décembre 2023 - Mars 2024",
             "bio": "Projet d'études : il s'agit d'une application de quiz en ligne où l'on rapporte des points à son clan pour chaque bonne réponse. Projet réalisé en 3 mois.",
-            "stacks": ["Vue.js", "Node.js", "Express", "SQLite", "Sequelize"],
+            "stacks": [
+                { "name": "Vue.js", "logo": "logos-vue" },
+                { "name": "Node.js", "logo": "devicon-nodejs" },
+                { "name": "Express", "logo": "devicon-express" },
+                { "name": "SQLite", "logo": "devicon-sqlite" },
+                { "name": "Sequelize", "logo": "devicon-sequelize" }
+            ],
             "link": "https://github.com/ProjetCultureLoF/LearnOrFight-Vue",
             "image": "lof.png",
             "more": "Lors de ce projet, j'ai découvert Vue.js pour la première fois, ce qui m'a permis de réaliser une application web dynamique. J'ai pu créer une application web complète avec un back-end utilisant Express, communiquant avec l'ORM Sequelize et une base de données SQLite, et un front-end en Vue.js. Le site permettait la création et la suppression de nouveaux quiz, avec une interface administrateur. Les questions étaient réparties dans les départements français et avaient chacune un thème attribué qui changeait chaque jour. Les joueurs ne pouvaient pas rejouer tant que les quiz de la région n'avaient pas changé. Pour chaque bonne réponse, les joueurs rapportaient des points à leur clan choisi lors de la création de leur compte."
@@ -42,7 +64,10 @@
             "title": "Projet Pokémon",
             "date": "Mars 2024 - 5 Jours",
             "bio": "Projet en POO réalisé en cours sur 5 jours, l'objectif était de reproduire le système du jeu Pokémon en console avec C#.",
-            "stacks": ["C#", "TCP"],
+            "stacks": [
+                { "name": "C#", "logo": "devicon-csharp" },
+                { "name": "TCP", "logo": "carbon:tcp-ip-service" }
+            ],
             "link": "https://github.com/ElieLaj/ProjetPkmn",
             "image": "projetPkmn.jpg",
             "more": "Durant ce projet, j'ai pu dépasser l'objectif initial en proposant l'utilisation d'objets pour capturer de nouveaux Pokémon et se soigner. J'ai aussi ajouté l'option de changer de carte et des combats de dresseurs. De plus, j'ai implémenté un mode multijoueur fonctionnant actuellement uniquement sur une même carte."
@@ -51,7 +76,11 @@
             "title": "SDV Forum",
             "date": "Novembre 2024 - 1 Jour",
             "bio": "Il s'agit d'un forum de discussion où l'on peut créer de nouveaux sujets et y répondre, supprimer ses messages ou forums. Projet réalisé en groupe de 2 en 1 jour.",
-            "stacks": ["PHP", "SQL", "HTML/CSS"],
+            "stacks": [
+                { "name": "PHP", "logo": "logos-php" },
+                { "name": "SQL", "logo": "devicon:sqlite" },
+                { "name": "HTML/CSS", "logo": "devicon-html5" }
+            ],
             "link": "https://github.com/B3-SDV-TP-PHP/sdv-forum",
             "image": "sdv-forum.png",
             "more": "Premier grand projet en PHP réalisé en binôme lors d'un bootcamp, j'ai pu mettre en pratique mes connaissances sur le langage PHP. J'ai réalisé un forum de discussion complet avec la gestion des messages des utilisateurs et de leurs forums. J'ai appris à sécuriser un site web en PHP et à gérer les sessions utilisateurs. J'ai également découvert la gestion des formulaires en PHP et la gestion des erreurs."
@@ -60,7 +89,9 @@
             "title": "Dogfight",
             "date": "Janvier 2024 - 3 Jours",
             "bio": "Projet en POO réalisé en cours sur 3 jours, il s'agit d'un jeu de combat d'avions en local où l'on peut se battre contre un autre joueur.",
-            "stacks": ["Python"],
+            "stacks": [
+                { "name": "Python", "logo": "logos-python" }
+            ],
             "link": "https://github.com/ElieLaj/DogFight",
             "image": "dogfight.png"
         }
